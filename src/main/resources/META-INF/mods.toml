@@ -1,0 +1,37 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "MIT"
+issueTrackerURL = ""
+showAsResourcePack = false
+
+[[mods]]
+modId = "seaofstars"
+version = "${file.jarVersion}"
+displayName = "Sea of Stars"
+# updateJSONURL = ""
+# displayURL = "minecraftforge.net"
+credits = "EpicSquid"
+authors = "EpicSquid"
+description = '''
+A mod about the Astral Sea, the space between worlds.
+'''
+[[dependencies.seaofstars]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.seaofstars]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.seaofstars]]
+modId = "lodestone"
+mandatory = true
+versionRange = "[1.19.2-2.0.0,)"
+ordering = "NONE"
+side = "BOTH"
